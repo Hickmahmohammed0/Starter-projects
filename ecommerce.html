@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Storefront</title>
+  <link rel="stylesheet" href="ecommerce.css">
+</head>
+<body>
+  <h1>E-Commerce Storefront</h1>
+  <div class="container">
+    <div class="product-list" id="product-list">
+      <!--  Products will be dynamically rendered here since we're fetching products using a free API -->
+    </div>
+    <div class="cart" id="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items">
+        <p>Your cart is empty.</p>
+      </div>
+      <button onclick="checkout()">Checkout</button>
+    </div>
+  </div>
+
+  <script src="ecommerce.js"></script>
+</body>
+</html>

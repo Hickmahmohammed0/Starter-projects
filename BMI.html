@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated BMI Calculator</title>
+    <link rel="stylesheet" href="BMI.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div>
+        <h1>BMI Calculator</h1>
+        <p>Calculate your Body Mass Index quickly and easily</p>
+        <div class="bmi-container">
+            <label for="weight">Enter Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Weight in kg" min="1">
+
+            <label for="height">Enter Height (cm):</label>
+            <input type="number" id="height" placeholder="Height in cm" min="1">
+
+            <button onclick="calculateBMI()">Calculate BMI</button>
+
+            <div class="result" id="bmiResult"></div>
+            <div class="bmi-category" id="bmiCategory"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="BMI.js"></script>
+</body>
+</html>

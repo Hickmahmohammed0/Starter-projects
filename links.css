@@ -1,0 +1,111 @@
+.features{
+    padding: 50px 5px;
+text-align: center;
+margin-top: 100px;
+background: linear-gradient(135deg,
+    #515bd4,
+    #8134af,
+    #ff0050,
+    #ffdc80
+    ) ;
+  }
+  .container{
+    max-width: 800px;
+    margin-left: 45%;
+    
+    
+
+  }
+ .container .links{
+  display: flex; /* Change to flexbox */
+  align-items: center; /* Center items vertically */
+    height: 30px;
+    width: 30px;
+    place-items: center;
+    margin: 3px 10px;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+
+  }
+  .container .links:hover{
+    width: 200px;
+  }
+  .container .links .icons{
+    display: flex; /* Change to flexbox */
+  justify-content: center; /* Center icon horizontally */
+  align-items: center; 
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+  .container .links .icons i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .container .links:hover .icons i{
+    color: #fff;
+  }
+  .container .links:nth-child(1):hover .icons{
+    background: #515bd4;
+  }
+  .container .links:nth-child(2):hover .icons{
+    background: #ff0050;
+  }
+  .container .links:nth-child(3):hover .icons{
+    background: linear-gradient(135deg,
+    #515bd4,
+    #8134af,
+    #ff0050,
+    #ffdc80
+    ) ;
+  }
+  .container .links:nth-child(4):hover .icons{
+    background: #000;
+  }
+  .container .links:nth-child(5):hover .icons{
+    background: #515bd4;
+  }
+  .container .links:nth-child(6):hover .icons{
+    background: #515bd4;
+  }
+  .container .links:nth-child(7):hover .icons{
+    background: #ff0050;
+  }
+  .container .links span{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+  }
+  .container .links:nth-child(1) span{
+    color: #515bd4;
+  }
+  .container .links:nth-child(2) span{
+    color: #ff0050;
+  }
+  .container .links:nth-child(3) span{
+    color: #8134af;
+  }
+  .container .links:nth-child(4) span{
+    color: #000;
+  }
+  .container .links:nth-child(5) span{
+    color: #515bd4;
+  }
+  .container .links:nth-child(6) span{
+    color: #515bd4;
+  }
+  .container .links:nth-child(7) span{
+    color: #ff0050;
+  }
